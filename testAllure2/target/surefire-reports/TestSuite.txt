@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 120.06 sec <<< FAILURE! - in TestSuite
+deleteAcc(testAllure2.CreatingAccount)  Time elapsed: 35.337 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Meet Guru99 - Free Training Tutorials & Video for IT Courses] but found [guru]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at testAllure2.CreatingAccount.deleteAcc(CreatingAccount.java:62)
+
