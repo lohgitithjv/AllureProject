@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106631" started-at="2018-04-28T19:20:55Z" finished-at="2018-04-28T19:22:42Z">
+  <suite name="Default suite" duration-ms="135121" started-at="2018-04-29T16:39:44Z" finished-at="2018-04-29T16:41:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106631" started-at="2018-04-28T19:20:55Z" finished-at="2018-04-28T19:22:42Z">
+    <test name="Default test" duration-ms="135121" started-at="2018-04-29T16:39:44Z" finished-at="2018-04-29T16:41:59Z">
       <class name="testAllure2.CreatingAccount">
-        <test-method status="PASS" signature="createAcc()[pri:0, instance:testAllure2.CreatingAccount@482cd91f]" name="createAcc" duration-ms="35692" started-at="2018-04-29T00:50:55Z" description="creating the account" finished-at="2018-04-29T00:51:31Z">
+        <test-method status="PASS" signature="createAcc()[pri:0, instance:testAllure2.CreatingAccount@482cd91f]" name="createAcc" duration-ms="47536" started-at="2018-04-29T22:09:44Z" description="creating the account" finished-at="2018-04-29T22:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAcc -->
-        <test-method status="FAIL" signature="deleteAcc()[pri:0, instance:testAllure2.CreatingAccount@482cd91f]" name="deleteAcc" duration-ms="34952" started-at="2018-04-29T00:51:31Z" description="deleting the account" finished-at="2018-04-29T00:52:06Z">
+        <test-method status="PASS" signature="modifyAcc()[pri:1, instance:testAllure2.CreatingAccount@482cd91f]" name="modifyAcc" duration-ms="45545" started-at="2018-04-29T22:10:32Z" description="updating the account" finished-at="2018-04-29T22:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAcc -->
+        <test-method status="FAIL" signature="deleteAcc()[pri:2, instance:testAllure2.CreatingAccount@482cd91f]" name="deleteAcc" duration-ms="41363" started-at="2018-04-29T22:11:18Z" description="deleting the account" finished-at="2018-04-29T22:11:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Meet Guru99 - Free Training Tutorials & Video for IT Courses] but found [guru]]]>
@@ -24,7 +28,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at testAllure2.CreatingAccount.deleteAcc(CreatingAccount.java:58)
+	at testAllure2.CreatingAccount.deleteAcc(CreatingAccount.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -56,10 +60,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAcc -->
-        <test-method status="PASS" signature="modifyAcc()[pri:0, instance:testAllure2.CreatingAccount@482cd91f]" name="modifyAcc" duration-ms="35745" started-at="2018-04-29T00:52:06Z" description="updating the account" finished-at="2018-04-29T00:52:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyAcc -->
       </class> <!-- testAllure2.CreatingAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

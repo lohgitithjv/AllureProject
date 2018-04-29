@@ -20,9 +20,12 @@ public class CreatingAccount
 	@Test (priority=0, description="creating the account")
 	public void createAcc()
 	{
-	
+		//Steps to push the code
+		//http://imtilab.blogspot.in/2016/10/how-to-pushupload-eclipse-project-to.html
+		
+		//https://github.com/lohithjvgit/AllureProject/tree/master/testAllure2
 		//allure serve //path of the Allure report
-		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Libs\\chromedriver.exe");
 		System.out.println("Hey how are you");
 		
 		WebDriver driver = new ChromeDriver();
@@ -31,12 +34,12 @@ public class CreatingAccount
 	}
 	
 	
-	@Test (priority=0, description="updating the account")
+	@Test (priority=1, description="updating the account")
 	public void modifyAcc()
 	{
 	
 		//allure serve //path of the Allure report
-		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Libs\\chromedriver.exe");
 		System.out.println("Hey how are you");
 		
 		WebDriver driver = new ChromeDriver();
@@ -45,13 +48,13 @@ public class CreatingAccount
 	}
 	
 	
-	@Test (priority=0, description="deleting the account")
+	@Test (priority=2, description="deleting the account")
 	@Attachment
 	public void deleteAcc()
 	{
 	
 		//allure serve //path of the Allure report
-		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Libs\\chromedriver.exe");
 		System.out.println("Hey how are you");
 		
 		WebDriver driver = new ChromeDriver();
